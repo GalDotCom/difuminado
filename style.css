@@ -1,0 +1,30 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #161625; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(179, 197, 246);
+        }
+      
+    50% {
+      color: rgb(142, 170, 245);
+    }
+    
+    100% {
+      color: rgb(118, 152, 245);
+       }
+    }
+    
+    h1 {
+        @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+        align-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        animation: color-change 3s infinite;
+        background-color: goldenrod;
+        border-radius:10px;
+          font-family: 'Abril Fatface', display;
+    }
